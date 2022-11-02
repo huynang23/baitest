@@ -1,0 +1,52 @@
+.app{
+height: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.container div{
+  display: flex;
+  margin-bottom: 20px;
+}
+.container h1{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 50px;
+}
+.container label{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+.container input{
+  width: 100%;
+  padding: 20px;
+  text-indent: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 30px;
+  background-color: rgb(183, 176, 176);
+}
+.container button{
+  padding: 0 10px;
+  height: 80px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result{
+  display: flex;
+  align-items: center;
+}
+.result p {
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  padding: 30px 200px;
+}
+.noData{
+  color: black;
+  font-size: 20px;
+}
